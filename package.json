@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "run-local-lambda --file index.js --event tests/event.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/vmontagh/aws-247video/issues"
   },
-  "homepage": "https://github.com/vmontagh/aws-247video#readme"
+  "homepage": "https://github.com/vmontagh/aws-247video#readme",
+  "devDependencies": {
+    "run-local-lambda": "^1.1.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.2"
+  }
 }
