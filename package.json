@@ -22,6 +22,6 @@
     "run-local-lambda": "^1.1.1"
   },
   "dependencies": {
-    "aws-sdk": "^2.3.2"
+    "aws-sdk": "latest"
   }
 }
